@@ -19,30 +19,32 @@ div {
   border: 2px, solid #db6400;
 }
 
-h1{
+h1 {
   font-weight: bold;
   color: #db6400;
 }
 
-h2{
+h2 {
   color: #db6400;
 }
 
-p{
+p {
   color: #16697a;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
 .img-circle {
   border-radius: 550px;
   width: 100px;
+  height: 100px;
 }
 
-.img-square{
+.img-square {
   width: 250px;
+  height: 250px;
   padding: auto;
   border-radius: 3px;
 }
@@ -98,6 +100,10 @@ a{
 
 .img-large {
   height: 300px;
+  width: 370px;
+  border-radius: 3px;
+  max-height: 100%;
+  max-width: 100%;
 }
 
 @media (max-width: 960px) {
